@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web PWA</title>
+
+    <!--pinta la barra del navegador-->
+    <meta name="theme-color" content="#F0DB4F">
+    <!--informar sitio optimizado para moviles-->
+    <meta name="HandHeldFriendly" content="true">
+    <!--etiquetas para IPad-->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandHeldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">    
+    <!--llama al icono para que aparezca en la imagen de la esquina de la pestana-->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <!--es el icono que aparece en el escritorio de los moviles-->
+    <link rel="apple-touch-icon" type="image/png" href="./img/Mi sitio Web PWA.png.png">
+    <!--es el icono que aparece cuando abro la app en el celu-->
+    <link rel="apple-touch-startup-image" type="image/png" href="./img/Mi sitio Web PWA.png.png">
+    <!--llamo al archivo .json-->
+    <link rel="manifest" href="./manifest.json">
+    <!--importo fuente de librerias online-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="Header">
+    <h1>#Mi sitio Web PWA</h1>
+    <img src="./img/Mi sitio Web PWA.png" alt="#Mi sitio Web PWA">
+    <p>
+        Bienvenidos a la pagina de prueba de desarrollo Enero 2022
+    </p>
+    <!-- menu de navegacion-->
+    <nav>
+        <!-- voy a utilizar iconos de la libreria FontAwesome asi que antes los tengo que importar ojo -->
+        
+        <a href="https://www.youtube.com/" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+        <a href="https://es-la.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        
+    </nav>
+</header>
+
+<main class="Main">
+    <iframe  src="https://www.youtube.com/embed/eLlPpxDGKrE?list=RDeLlPpxDGKrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</main>
+
+<script src="./script.js"></script>
+</body>
+</html>
